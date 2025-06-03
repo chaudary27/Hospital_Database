@@ -45,5 +45,5 @@ The goal of this project is to practice SQL queries using a structured database 
 ```sql
 SELECT province_name, COUNT(DISTINCT patient_id) AS total_patients
 FROM patients
-JOIN province_names ON patients.province_id =
+JOIN province_names ON p
 

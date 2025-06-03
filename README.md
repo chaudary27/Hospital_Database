@@ -46,5 +46,4 @@ The goal of this project is to practice SQL queries using a structured database 
 SELECT province_name, COUNT(DISTINCT patient_id) AS total_patients
 FROM patients
 JOIN province_names ON patients.province_id = province_names.province_id
-GROUP BY province_name
 

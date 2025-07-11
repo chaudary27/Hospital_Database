@@ -115,3 +115,5 @@ join admissions a on d.doctor_id= a.attending_doctor_id
 group by d.doctor_id , year(a.admission_date)
 
 
+-- this contain all the advanced sql querrirs
+
